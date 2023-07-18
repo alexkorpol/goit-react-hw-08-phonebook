@@ -21,9 +21,9 @@ export default function Forma() {
 
   const { nameNew, numberNew } = state;
 
-  useEffect(() => {
-    dispatch(fetchContacts());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(fetchContacts());
+  // }, [dispatch]);
 
   const handleChange = nameValueInput => event => {
     const { target } = event;
@@ -113,3 +113,4 @@ export default function Forma() {
     </Form>
   );
 }
+
