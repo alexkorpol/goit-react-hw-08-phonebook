@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { logIn } from 'redux/auth/operation';
+import { logIn } from 'redux/auth/operations';
 // import { Button, Container, ContainerBox, Form, Input, Span, Title } from './LoginUser.styled';
 import {
   Container,

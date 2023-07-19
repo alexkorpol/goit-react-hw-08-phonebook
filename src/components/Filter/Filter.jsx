@@ -1,9 +1,11 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectFilter } from 'redux/selectors';
-import { setStatusFilter } from 'redux/filterSlice';
+import { selectFilter } from 'redux/contacts/selectors';
+import { setStatusFilter } from 'redux/contacts/filterSlice';
 import { FormFilter, Label } from './Filter.styled';
 import { Input } from 'components/Forma/Forma.styled';
+
+
 
 const Filter = () => {
   const dispatch = useDispatch();

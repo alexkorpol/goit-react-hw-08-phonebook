@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import {Title} from './Layout.styled'
+import { Title } from './Wrapper.styled';
 
 const GlobalTitle = ({title}) => {
   return (

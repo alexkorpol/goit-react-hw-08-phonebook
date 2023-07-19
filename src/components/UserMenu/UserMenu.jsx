@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { logOut } from 'redux/auth/operation';
+import { logOut } from 'redux/auth/operations';
 import { useAuth } from 'hooks';
 import { Button } from 'components/Forma/Forma.styled';
 import { Container, Title } from './UserMenu.styled';

@@ -82,6 +82,8 @@ export const App = () => {
   );
 };
 
+export default App;
+
 
 // ! =========
 // import { useEffect, lazy } from 'react';
