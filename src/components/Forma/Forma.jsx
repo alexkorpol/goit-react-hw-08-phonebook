@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { nanoid } from 'nanoid';
 import { Button, Form, Input, Label, Span } from './Forma.styled';
 import { Notify } from 'notiflix';
 import { selectVisibleContacts } from 'redux/selectors';
-import { addContact, fetchContacts } from 'redux/contacts/services-API';
+import { addContact } from 'redux/contacts/services-API';
 
 export default function Forma() {
   const contacts = useSelector(selectVisibleContacts);
