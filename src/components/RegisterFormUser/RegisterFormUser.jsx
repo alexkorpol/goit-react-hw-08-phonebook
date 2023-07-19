@@ -10,7 +10,7 @@ import {
   Span,
 } from 'components/LoginUser/LoginUser.styled';
 
-export const RegisterForm = () => {
+export const RegisterFormUser = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = e => {

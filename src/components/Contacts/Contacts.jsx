@@ -4,7 +4,7 @@ import { Button, Span } from 'components/Forma/Forma.styled';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { selectVisibleContacts } from 'redux/selectors';
-import { deleteContact } from 'services/services-API';
+import { deleteContact } from 'redux/contacts/services-API';
 
 const Contacts = () => {
   const contacts = useSelector(selectVisibleContacts);
