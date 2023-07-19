@@ -34,6 +34,7 @@ import { useAuth } from 'hooks';
 import Wrapper from './Wrapper/Wrapper';
 import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
+import { refreshUser } from 'redux/auth/operations';
 
 
 
