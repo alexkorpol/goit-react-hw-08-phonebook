@@ -7,7 +7,6 @@ import {
   Input,
   Button,
   Title,
-  Span,
 } from 'components/LoginUser/LoginUser.styled';
 
 export const RegisterFormUser = () => {
@@ -28,13 +27,13 @@ export const RegisterFormUser = () => {
 
   return (
     <Container>
-      <Title>Register</Title>
+      <Title>Registration</Title>
       <Form onSubmit={handleSubmit}>
         <ContainerBox>
           <Input
             type="text"
             name="name"
-            placeholder="Enter your nane"
+            placeholder="Enter your name"
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
             required
@@ -62,11 +61,7 @@ export const RegisterFormUser = () => {
         </ContainerBox>
 
         <Button type="submit">
-          <Span></Span>
-          <Span></Span>
-          <Span></Span>
-          <Span></Span>
-          Register
+            Register
         </Button>
       </Form>
     </Container>

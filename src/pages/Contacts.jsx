@@ -1,13 +1,6 @@
 import { HelmetProvider } from 'react-helmet-async';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-// import { ToastContainer } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
-// import { fetchAll } from 'redux/contacts/operations';
-// import FormList from '../components/FormList/FormList';
-// import ContactList from '../components/ContactList/ContactList';
-// import Filter from '../components/Filter/Filter';
-// import GlobalTitle from '../components/Layout/Title';
 import Forma from 'components/Forma/Forma';
 import Filter from 'components/Filter/Filter';
 import ContactsAll from 'components/Contacts/Contacts';
@@ -34,7 +27,3 @@ const Contacts = () => {
 };
 
 export default Contacts;
-
-
-
-        // <ToastContainer />

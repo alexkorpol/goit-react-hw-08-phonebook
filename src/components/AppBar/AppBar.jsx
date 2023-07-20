@@ -1,5 +1,3 @@
-
-
 import { Header } from './AppBar.styled';
 import { UserMenu } from 'components/UserMenu/UserMenu';
 import { Navigation } from 'components/Navigation/Navigation';

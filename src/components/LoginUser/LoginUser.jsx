@@ -1,6 +1,5 @@
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
-// import { Button, Container, ContainerBox, Form, Input, Span, Title } from './LoginUser.styled';
 import {
   Container,
   ContainerBox,
@@ -8,7 +7,6 @@ import {
   Input,
   Button,
   Title,
-  Span,
 } from './LoginUser.styled';
 
 export const LoginUser = () => {
@@ -51,10 +49,6 @@ export const LoginUser = () => {
           />
         </ContainerBox>
         <Button type="submit">
-          <Span></Span>
-          <Span></Span>
-          <Span></Span>
-          <Span></Span>
           Login
         </Button>
       </Form>

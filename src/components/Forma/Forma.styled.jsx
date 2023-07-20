@@ -19,17 +19,17 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #fff;
+  color: blue;
   padding: 5px 10px 5px;
   margin-top: 20px;
 
-  background: rgba(0, 0, 0, 0.5);
+  background: #d0d0d0;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
 
   &:hover{
-  color: red;
+  color: white;
   background-color: #000;
   cursor: pointer;
   }

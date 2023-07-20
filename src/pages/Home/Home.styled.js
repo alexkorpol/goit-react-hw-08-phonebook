@@ -12,7 +12,7 @@ export const Title = styled.h1`
   font-weight: 500;
   font-size: 48px;
   text-align: center;
-  color: white;
+  color: blue;
 `;
 
 export const Link = styled(NavLink)`
@@ -21,8 +21,8 @@ export const Link = styled(NavLink)`
   border: 0px solid transparent;
   border-radius: 4px;
   text-decoration: none;
-  color: white;
-  background-color: #ff4500;
+  color: blue;
+  background-color: #d0d0d0;
   box-shadow: gray;
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
